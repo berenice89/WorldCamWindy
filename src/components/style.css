@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #224e96;
+}
+
+a:hover {
+  color: #059cea;
+}
+
+li {
+  list-style-type: none;
+}
+
+#header img {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#homepage {
+  background: linear-gradient(0.45turn, #56ccf2, #2f80ed);
+  width: 100%;
+  height: 300px;
+}
+
+#homepage input {
+  width: 100%;
+  height: 60px;
+  border: 0;
+  border-radius: 8px;
+  color: darkgray;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 50px;
+}
+
+#input {
+  height: 290px;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.countryList,
+.webcamList {
+  text-align: center;
+  line-height: 1.6em;
+  font-size: 1.2em;
+}
+
+.webcamList {
+  text-align: center;
+}
+
+.webcamList h1 {
+  margin-top: 45px;
+  margin-bottom: 180px;
+  color: white;
+  font-size: 3.2em;
+}
+
+#oneWebcam {
+  background-color: white;
+  text-align: center;
+}
+
+#oneWebcam iframe {
+  margin-top: 100px;
+  border: 1px solid magenta;
+}
+
+#footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#footer button {
+  background-color: #224e96;
+  color: white;
+  border: 0;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 2px;
+  margin: 20px;
+}
+
+#footer button:hover {
+  background-color: #059cea;
+  color: white;
+}
